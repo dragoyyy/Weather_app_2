@@ -1,0 +1,204 @@
+body {
+  text-align: center;
+}
+h1 {
+  color: floralwhite;
+  font-family: "Roboto", sans-serif, "Concert One", cursive;
+  font-weight: 900px;
+  font-size: 38px;
+  margin-top: 20px;
+  position: relative;
+  top: 10px;
+  line-height: 45px;
+}
+
+h2 {
+  color: whitesmoke;
+  position: relative;
+  top: 10px;
+  font-size: 20px;
+  font-family: "DM Mono", monospace;
+}
+h3 {
+  color: whitesmoke;
+  position: relative;
+  top: 10px;
+  font-size: 16px;
+  font-family: "DM Mono", monospace;
+}
+.temp .curTemp {
+  top: 0px;
+  font-size: 50px;
+  color: whitesmoke;
+  position: relative;
+  font-family: "PT Mono", monospace;
+}
+a {
+  text-decoration: none;
+}
+p {
+  position: relative;
+  top: -40px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.units {
+  position: relative;
+  top: -20px;
+  left: -8px;
+}
+
+h5 {
+  font-size: 17px;
+  font-family: "DM Mono", monospace;
+}
+.container {
+  width: 550px;
+  height: 580px;
+  margin: 50px auto;
+  display: block;
+  background-image: linear-gradient(
+    to top,
+    #0c3483 0%,
+    #a2b6df 100%,
+    #6b8cce 100%,
+    #a2b6df 100%
+  );
+
+  color: white;
+}
+li {
+  list-style: none;
+}
+
+.form-control {
+  margin-top: 30px;
+  display: block;
+  position: relative;
+  right: -110px;
+  max-width: 200px;
+}
+
+.btn.btn-primary {
+  margin-top: 30px;
+  display: inline-block;
+  font-weight: 400;
+  position: relative;
+  right: -110px;
+  background-color: #36569b;
+  border: #36569b;
+  cursor: pointer;
+}
+.btn.btn-primary:hover {
+  background-color: whitesmoke;
+  color: #153985;
+}
+.btn.btn-success {
+  margin-top: 30px;
+  display: inline-block;
+  font-weight: 400;
+  position: relative;
+  right: -110px;
+  background-color: green;
+  border: green;
+  cursor: pointer;
+}
+.btn.btn-success:hover {
+  background-color: whitesmoke;
+  color: green;
+}
+.conditions {
+  position: relative;
+  bottom: -20px;
+  font-weight: 400px;
+  right: -30px;
+  line-height: 35px;
+  font-size: 18px;
+  font-family: "DM Mono", monospace;
+  top: -10px;
+}
+.temperature {
+  color: #ffc500;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: -18px;
+}
+.unitsMin {
+  position: relative;
+  left: -8px;
+}
+
+.temperatureMax {
+  position: relative;
+  left: -16px;
+}
+.unitsMax {
+  position: relative;
+  left: -24px;
+}
+
+.day-icon {
+  width: 170px;
+  position: relative;
+  left: -30px;
+  top: -20px;
+}
+
+.Mon {
+  font-family: "DM Mono", monospace;
+  line-height: 35px;
+  font-size: 12px;
+  position: relative;
+  top: -20px;
+  /* right: -150px; */
+}
+.Tue {
+  font-family: "DM Mono", monospace;
+  line-height: 35px;
+  font-size: 12px;
+  position: relative;
+  top: -20px;
+  /* right: -90px; */
+}
+.Wed {
+  font-family: "DM Mono", monospace;
+  line-height: 35px;
+  font-size: 12px;
+  position: relative;
+  top: -20px;
+  /* right: -30px; */
+}
+.Thu {
+  font-family: "DM Mono", monospace;
+  line-height: 35px;
+  font-size: 12px;
+  position: relative;
+  top: -20px;
+  /* left: -30px; */
+}
+.Fri {
+  font-family: "DM Mono", monospace;
+  line-height: 35px;
+  font-size: 12px;
+  position: relative;
+  top: -20px;
+  /* left: -90px; */
+}
+
+.Sat {
+  font-family: "DM Mono", monospace;
+  line-height: 35px;
+  font-size: 12px;
+  position: relative;
+  top: -20px;
+  /* left: -150px; */
+}
+.fas {
+  font-size: 35px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.sun-icon {
+  color: #ffc500;
+}
